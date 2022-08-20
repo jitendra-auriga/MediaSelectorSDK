@@ -1,0 +1,11 @@
+framework module MediaSelector {
+  umbrella header "MediaSelector.h"
+
+  export *
+  module * { export * }
+}
+
+module MediaSelector.Swift {
+    header "MediaSelector-Swift.h"
+    requires objc
+}

@@ -1,0 +1,6 @@
+framework module Pods_MediaSelector_MediaSelectorTests {
+  umbrella header "Pods-MediaSelector-MediaSelectorTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

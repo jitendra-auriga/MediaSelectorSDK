@@ -1,0 +1,89 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
+// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MediaSelector
+import AVKit
+import Foundation
+@_exported import MediaSelector
+import Photos
+import Swift
+import UIKit
+import _Concurrency
+@objc @_inheritsConvenienceInitializers public class VideoCameraManager : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension MediaSelector.VideoCameraManager : AVFoundation.AVCaptureFileOutputRecordingDelegate {
+  @objc dynamic public func fileOutput(_ output: AVFoundation.AVCaptureFileOutput, didFinishRecordingTo outputFileURL: Foundation.URL, from connections: [AVFoundation.AVCaptureConnection], error: Swift.Error?)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class MediaPickerManager : ObjectiveC.NSObject {
+  public static let shared: MediaSelector.MediaPickerManager
+  public func pickMedia(_ viewController: UIKit.UIViewController, mediaType: MediaSelector.MediaType? = nil, source: MediaSelector.Source? = nil, allowCrop: Swift.Bool = false, allowSettingsNavigation: Swift.Bool = false, _ callback: @escaping ((UIKit.UIImage, Foundation.URL?) -> ()))
+  @objc deinit
+}
+extension MediaSelector.MediaPickerManager : UIKit.UIImagePickerControllerDelegate, UIKit.UINavigationControllerDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func imagePickerControllerDidCancel(_ picker: UIKit.UIImagePickerController)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func imagePickerController(_ picker: UIKit.UIImagePickerController, didFinishPickingMediaWithInfo info: [UIKit.UIImagePickerController.InfoKey : Any])
+}
+@_hasMissingDesignatedInitializers public class CheckPermissions {
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class CaptureVideoVC : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @objc deinit
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+}
+public struct MediaAccessMessages {
+}
+public enum SessionSetupResult {
+  case success
+  case notAuthorized
+  case configurationFailed
+  public static func == (a: MediaSelector.SessionSetupResult, b: MediaSelector.SessionSetupResult) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum FlashStatus {
+  case on
+  case off
+  public static func == (a: MediaSelector.FlashStatus, b: MediaSelector.FlashStatus) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum MediaType {
+  case image
+  case video
+  case audio
+  public static func == (a: MediaSelector.MediaType, b: MediaSelector.MediaType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum Source {
+  case camera
+  case gallery
+  public static func == (a: MediaSelector.Source, b: MediaSelector.Source) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class Recorder : ObjectiveC.NSObject {
+  @objc deinit
+}
+extension MediaSelector.Recorder : AVFAudio.AVAudioRecorderDelegate {
+  @objc dynamic public func audioRecorderDidFinishRecording(_ recorder: AVFAudio.AVAudioRecorder, successfully flag: Swift.Bool)
+}
+extension MediaSelector.SessionSetupResult : Swift.Equatable {}
+extension MediaSelector.SessionSetupResult : Swift.Hashable {}
+extension MediaSelector.FlashStatus : Swift.Equatable {}
+extension MediaSelector.FlashStatus : Swift.Hashable {}
+extension MediaSelector.MediaType : Swift.Equatable {}
+extension MediaSelector.MediaType : Swift.Hashable {}
+extension MediaSelector.Source : Swift.Equatable {}
+extension MediaSelector.Source : Swift.Hashable {}
