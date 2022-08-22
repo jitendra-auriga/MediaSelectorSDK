@@ -160,6 +160,7 @@ public class MediaPickerManager: NSObject {
                 if(UIImagePickerController .isSourceTypeAvailable(.camera)) {
                     DispatchQueue.main.async {
                         self.picker.sourceType = .camera
+                        self.picker.mediaTypes = ["public.image"]
                         self.viewController.present(self.picker, animated: true, completion: nil)
                     }
                 } else {
@@ -180,6 +181,7 @@ public class MediaPickerManager: NSObject {
             if isAuthorised {
                 DispatchQueue.main.async {
                     self.picker.sourceType = .photoLibrary
+                    self.picker.mediaTypes = ["public.image"]
                     self.viewController.present(self.picker, animated: true, completion: nil)
                 }
             }

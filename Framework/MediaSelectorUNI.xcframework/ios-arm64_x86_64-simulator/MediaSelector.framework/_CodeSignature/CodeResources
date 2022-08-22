@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/MediaSelector-Swift.h</key>
 		<data>
-		6vLg7Lw4AAmODg4lxMHjj9+I644=
+		Ozvg71UQpaVkuMz1xK+10FMf9Z0=
 		</data>
 		<key>Headers/MediaSelector.h</key>
 		<data>
@@ -14,31 +14,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		gFcuMcfcrhlW2kdwLOwXTnC4/l4=
+		zf6pude9L0k+vFccU14eG+gDJEs=
 		</data>
 		<key>Modules/MediaSelector.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		xJqPJduW5nh7xLqoQuYPjtZylmg=
+		riibGul9nEnA/d1qAaD6HN4OcRk=
 		</data>
 		<key>Modules/MediaSelector.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		5DPyVtHFGn8toJgnRHK1eP2MT00=
+		COI8004gJbGWExWBmb+RFEhKK5w=
 		</data>
 		<key>Modules/MediaSelector.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		F5UB6UxPtTl9lPRmyhhg2I7xIG0=
+		5t1bI3SbTA2gKeS0JQjm++c/vQA=
 		</data>
 		<key>Modules/MediaSelector.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		BZqtpbwjbKXkS51cfG4bcp6Q+yg=
+		C5FITLgHGMRernfYkHoFwnNJpXc=
 		</data>
 		<key>Modules/MediaSelector.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		w3TTdmmfyzDDN0USc8+NCaOCwV8=
+		gcOwt0wzX49cNKvYx13Q1JfBISA=
 		</data>
 		<key>Modules/MediaSelector.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Vlb+rSaXCX32GAuEdhgk9e/ZliQ=
+		ot3POyc2Jd5u2+CkmDvN2gDDll0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fbn7ZXCUQkXIvNhdQ0rqppIVfjsGOG1Cjpj5rTM1usM=
+			WiYSnEDgdbQxpP/hHNN47DTkHDV2e2WNwYjupx9ZpsQ=
 			</data>
 		</dict>
 		<key>Headers/MediaSelector.h</key>
@@ -65,42 +65,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CQetLhlSDnBpSclDRTxTfT9upCVugYkKeV7vakkc5qM=
+			oGgnPFVEXfaDPWHp8Qu8OYQtTnbzlRA2wMlKR4wv6Ok=
 			</data>
 		</dict>
 		<key>Modules/MediaSelector.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			R8Uh/tKAQCknq5uw4u1z7gvsyG53VfNHz0wWDQ8k5BQ=
+			7MYBmWQ/tPDxBDuZKcAbBS6iUkv42AMqF7ZpKCSzm9o=
 			</data>
 		</dict>
 		<key>Modules/MediaSelector.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lvLwHkv2prRVosqrrqeBoedooZW+n3VmLcQMyTtQbME=
+			2c999AQD9PUc/0YgpKfNICqPoTN1vqEwmc4VwJUG5p0=
 			</data>
 		</dict>
 		<key>Modules/MediaSelector.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0W9clt064Wmc/T/MMPcAmL6frLiZbLNnVVti+EfBZvQ=
+			g1705y6yZKQvex87buJp+RmBmlcU8ZEP3R/4pJBqZj4=
 			</data>
 		</dict>
 		<key>Modules/MediaSelector.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NW7kdwY8LbGjzdbwOq0syKiq1wCtGNInA1HPXWkOWyg=
+			AfVPz1x9yJawyX6ZhPdv6V1PooBemrQmMTgH9dw2OfQ=
 			</data>
 		</dict>
 		<key>Modules/MediaSelector.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NhiC4P/1oksm6/SKWqlbTYa36jHDxSpy2UM8oOjPU5A=
+			fAiQ4yps0h6vftBe23A2W9IHs02SlTS3umdPEMEhCN8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -198,7 +198,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import AVFAudio;
-@import AVFoundation;
 @import Foundation;
 @import ObjectiveC;
 @import UIKit;
@@ -220,40 +219,15 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 
-SWIFT_CLASS("_TtC13MediaSelector13CameraManager")
-@interface CameraManager : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class AVCaptureFileOutput;
-@class NSURL;
-@class AVCaptureConnection;
-
-@interface CameraManager (SWIFT_EXTENSION(MediaSelector)) <AVCaptureFileOutputRecordingDelegate>
-- (void)captureOutput:(AVCaptureFileOutput * _Nonnull)output didFinishRecordingToOutputFileAtURL:(NSURL * _Nonnull)outputFileURL fromConnections:(NSArray<AVCaptureConnection *> * _Nonnull)connections error:(NSError * _Nullable)error;
-@end
-
-@class NSString;
-@class NSBundle;
-@class NSCoder;
-
-SWIFT_CLASS("_TtC13MediaSelector14CaptureVideoVC")
-@interface CaptureVideoVC : UIViewController
-- (void)viewDidLoad;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC13MediaSelector18ImagePickerManager")
-@interface ImagePickerManager : NSObject <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+SWIFT_CLASS("_TtC13MediaSelector18MediaPickerManager")
+@interface MediaPickerManager : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 @class UIImagePickerController;
 
-@interface ImagePickerManager (SWIFT_EXTENSION(MediaSelector))
+@interface MediaPickerManager (SWIFT_EXTENSION(MediaSelector)) <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 - (void)imagePickerControllerDidCancel:(UIImagePickerController * _Nonnull)picker;
 - (void)imagePickerController:(UIImagePickerController * _Nonnull)picker didFinishPickingMediaWithInfo:(NSDictionary<UIImagePickerControllerInfoKey, id> * _Nonnull)info;
 @end
@@ -476,7 +450,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import AVFAudio;
-@import AVFoundation;
 @import Foundation;
 @import ObjectiveC;
 @import UIKit;
@@ -498,40 +471,15 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 
-SWIFT_CLASS("_TtC13MediaSelector13CameraManager")
-@interface CameraManager : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class AVCaptureFileOutput;
-@class NSURL;
-@class AVCaptureConnection;
-
-@interface CameraManager (SWIFT_EXTENSION(MediaSelector)) <AVCaptureFileOutputRecordingDelegate>
-- (void)captureOutput:(AVCaptureFileOutput * _Nonnull)output didFinishRecordingToOutputFileAtURL:(NSURL * _Nonnull)outputFileURL fromConnections:(NSArray<AVCaptureConnection *> * _Nonnull)connections error:(NSError * _Nullable)error;
-@end
-
-@class NSString;
-@class NSBundle;
-@class NSCoder;
-
-SWIFT_CLASS("_TtC13MediaSelector14CaptureVideoVC")
-@interface CaptureVideoVC : UIViewController
-- (void)viewDidLoad;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC13MediaSelector18ImagePickerManager")
-@interface ImagePickerManager : NSObject <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+SWIFT_CLASS("_TtC13MediaSelector18MediaPickerManager")
+@interface MediaPickerManager : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 @class UIImagePickerController;
 
-@interface ImagePickerManager (SWIFT_EXTENSION(MediaSelector))
+@interface MediaPickerManager (SWIFT_EXTENSION(MediaSelector)) <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 - (void)imagePickerControllerDidCancel:(UIImagePickerController * _Nonnull)picker;
 - (void)imagePickerController:(UIImagePickerController * _Nonnull)picker didFinishPickingMediaWithInfo:(NSDictionary<UIImagePickerControllerInfoKey, id> * _Nonnull)info;
 @end
