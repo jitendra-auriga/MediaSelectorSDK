@@ -1,6 +1,0 @@
-framework module Pods_MediaSelector {
-  umbrella header "Pods-MediaSelector-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/MediaSelector-Swift.h</key>
 		<data>
-		pgxhKE83U6eal7ZZAlDgOsiO2Ak=
+		Ozvg71UQpaVkuMz1xK+10FMf9Z0=
 		</data>
 		<key>Headers/MediaSelector.h</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/MediaSelector.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		WWZbxlk9515Yq5ivLXYwRq4u58g=
+		COI8004gJbGWExWBmb+RFEhKK5w=
 		</data>
 		<key>Modules/MediaSelector.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		GM2vxnmtqHLHPvYCZ96bQHwn0RY=
+		5t1bI3SbTA2gKeS0JQjm++c/vQA=
 		</data>
 		<key>Modules/MediaSelector.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/MediaSelector.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		gtJwJVuaCS1WUUv4OJ7GaoknBCE=
+		gcOwt0wzX49cNKvYx13Q1JfBISA=
 		</data>
 		<key>Modules/MediaSelector.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		hzBBqQ09rsLZzLcNC1lIiF4ACRo=
+		ot3POyc2Jd5u2+CkmDvN2gDDll0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XgaWgCgCi5iANUBDSQcMSugoL0Aug6YPDs1q5R9FAuE=
+			WiYSnEDgdbQxpP/hHNN47DTkHDV2e2WNwYjupx9ZpsQ=
 			</data>
 		</dict>
 		<key>Headers/MediaSelector.h</key>
@@ -72,14 +72,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			G/YdAZs7s18Z6eX+iET0lEBkbxQFQK1nOUVvxiUUJlU=
+			7MYBmWQ/tPDxBDuZKcAbBS6iUkv42AMqF7ZpKCSzm9o=
 			</data>
 		</dict>
 		<key>Modules/MediaSelector.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9Q7xzbVApTfCavJWPOoqzDWq4bf5OUzkeuM5ogyKrtU=
+			2c999AQD9PUc/0YgpKfNICqPoTN1vqEwmc4VwJUG5p0=
 			</data>
 		</dict>
 		<key>Modules/MediaSelector.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -93,14 +93,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5gTzY6VGlUia0RKr5VG0juqtHnAwPwYRkz+uN630Zus=
+			AfVPz1x9yJawyX6ZhPdv6V1PooBemrQmMTgH9dw2OfQ=
 			</data>
 		</dict>
 		<key>Modules/MediaSelector.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			V4MhXQ7cdmzMYPqRjD6VGSOVH+XC3y/OtdnjBld27pY=
+			fAiQ4yps0h6vftBe23A2W9IHs02SlTS3umdPEMEhCN8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

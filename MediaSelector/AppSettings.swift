@@ -8,7 +8,6 @@
 import UIKit
 
 class AppSettings {
-    
     func askUserToOpenSettings(msg: String, viewController: UIViewController) {
         
         let alert = UIAlertController(title: msg, message: nil, preferredStyle: .alert)

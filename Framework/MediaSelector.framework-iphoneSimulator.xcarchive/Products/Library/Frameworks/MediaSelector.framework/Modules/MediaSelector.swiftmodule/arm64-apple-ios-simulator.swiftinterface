@@ -8,13 +8,6 @@ import Photos
 import Swift
 import UIKit
 import _Concurrency
-@objc @_inheritsConvenienceInitializers public class VideoCameraManager : ObjectiveC.NSObject {
-  @objc override dynamic public init()
-  @objc deinit
-}
-extension MediaSelector.VideoCameraManager : AVFoundation.AVCaptureFileOutputRecordingDelegate {
-  @objc dynamic public func fileOutput(_ output: AVFoundation.AVCaptureFileOutput, didFinishRecordingTo outputFileURL: Foundation.URL, from connections: [AVFoundation.AVCaptureConnection], error: Swift.Error?)
-}
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class MediaPickerManager : ObjectiveC.NSObject {
   public static let shared: MediaSelector.MediaPickerManager
   public func pickMedia(_ viewController: UIKit.UIViewController, mediaType: MediaSelector.MediaType? = nil, source: MediaSelector.Source? = nil, allowCrop: Swift.Bool = false, allowSettingsNavigation: Swift.Bool = false, _ callback: @escaping ((UIKit.UIImage, Foundation.URL?) -> ()))
@@ -26,12 +19,6 @@ extension MediaSelector.MediaPickerManager : UIKit.UIImagePickerControllerDelega
 }
 @_hasMissingDesignatedInitializers public class CheckPermissions {
   @objc deinit
-}
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class CaptureVideoVC : UIKit.UIViewController {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @objc deinit
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
 }
 public struct MediaAccessMessages {
 }

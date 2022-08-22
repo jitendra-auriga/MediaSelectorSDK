@@ -16,7 +16,6 @@ public class MediaPickerManager: NSObject {
     public static let shared = MediaPickerManager()
     
     private var picker = UIImagePickerController()
-    
     private var alertType = UIAlertController(title: "Select media type", message: nil, preferredStyle: .actionSheet)
     private var alertFrom = UIAlertController(title: "Select media from", message: nil, preferredStyle: .actionSheet)
 

@@ -196,7 +196,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import AVFAudio;
-@import AVFoundation;
 @import Foundation;
 @import ObjectiveC;
 @import UIKit;
@@ -216,17 +215,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma clang attribute push(__attribute__((external_source_symbol(language="Swift", defined_in="MediaSelector",generated_declaration))), apply_to=any(function,enum,objc_interface,objc_category,objc_protocol))
 # pragma pop_macro("any")
 #endif
-
-@class NSString;
-@class NSBundle;
-@class NSCoder;
-
-SWIFT_CLASS("_TtC13MediaSelector14CaptureVideoVC")
-@interface CaptureVideoVC : UIViewController
-- (void)viewDidLoad;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
 
 
 SWIFT_CLASS("_TtC13MediaSelector18MediaPickerManager")
@@ -253,20 +241,6 @@ SWIFT_CLASS("_TtC13MediaSelector8Recorder")
 
 @interface Recorder (SWIFT_EXTENSION(MediaSelector)) <AVAudioRecorderDelegate>
 - (void)audioRecorderDidFinishRecording:(AVAudioRecorder * _Nonnull)recorder successfully:(BOOL)flag;
-@end
-
-
-SWIFT_CLASS("_TtC13MediaSelector18VideoCameraManager")
-@interface VideoCameraManager : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class AVCaptureFileOutput;
-@class NSURL;
-@class AVCaptureConnection;
-
-@interface VideoCameraManager (SWIFT_EXTENSION(MediaSelector)) <AVCaptureFileOutputRecordingDelegate>
-- (void)captureOutput:(AVCaptureFileOutput * _Nonnull)output didFinishRecordingToOutputFileAtURL:(NSURL * _Nonnull)outputFileURL fromConnections:(NSArray<AVCaptureConnection *> * _Nonnull)connections error:(NSError * _Nullable)error;
 @end
 
 #if __has_attribute(external_source_symbol)
